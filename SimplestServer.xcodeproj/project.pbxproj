@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FE87AAFF1D327DF300D14F09 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FE87AAFE1D327DF300D14F09 /* main.c */; };
+		FEBB36D41D3521120029E202 /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = FEBB36D31D3521120029E202 /* client.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		FE87AAFB1D327DF300D14F09 /* SimplestServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SimplestServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE87AAFE1D327DF300D14F09 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FE87AB051D327E5000D14F09 /* SimplestServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimplestServer.h; sourceTree = "<group>"; };
+		FEBB36D31D3521120029E202 /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				FE87AAFE1D327DF300D14F09 /* main.c */,
+				FE87AB051D327E5000D14F09 /* SimplestServer.h */,
+				FEBB36D31D3521120029E202 /* client.c */,
 			);
 			path = SimplestServer;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEBB36D41D3521120029E202 /* client.c in Sources */,
 				FE87AAFF1D327DF300D14F09 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +245,7 @@
 				FE87AB041D327DF300D14F09 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
